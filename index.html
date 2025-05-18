@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>タイピングアルファベット</title>
+    <script src="main.js"></script>
+  </head>
+  <body style="display: flex; align-items: center; justify-content: center;">
+    <div
+      style="
+        width: 100%;
+        max-width: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-family: sans-serif;
+      "
+    >
+      <div
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 2rem;
+          width: 100%;
+          font-size: 1.5rem;
+          font-weight: bold;
+          color: #fff;
+          background-color: rgb(111, 136, 0);
+        "
+      >
+      タイピングアルファベット
+      </div>
+      <div
+        id="letter"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 20rem;
+          width: 100%;
+          font-size: 17rem;
+        "
+      >
+        ⌨️
+      </div>
+      <div
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          height: 3rem;
+          width: 100%;
+          font-size: 3rem;
+        "
+      >
+        <div style="width: 20%;" id="timer">0.000s</div>
+        <div
+          id="start"
+          style="
+            display: flex;
+            height: 2.5rem;
+            border-radius: 0.5rem;
+            align-items: center;
+            justify-content: center;
+            width: 20%;
+            font-size: 1.5rem;
+            background-color: #08e;
+            color: #fff;
+            cursor: pointer;
+          "
+        >
+          Start
+        </div>
+      </div>
+      <div
+        id="share"
+        style="
+          visibility: hidden;
+          display: flex;
+          height: 3rem;
+          border-radius: 0.5rem;
+          align-items: center;
+          justify-content: center;
+          margin: 1rem;
+          width: 30%;
+          font-size: 2rem;
+          background-color: #084;
+          color: #fff;
+          cursor: pointer;
+        "
+      >
+        Share
+      </div>
+      <div
+        id="clipboard"
+        style="
+          display: flex;
+          height: 2.5rem;
+          border-radius: 0.5rem;
+          align-items: center;
+          justify-content: center;
+          width: 80%;
+          opacity: 0;
+          transform: translateY(1rem);
+          transition: all 150ms ease-out;
+          font-size: 1rem;
+          background-color: #840;
+          color: #fff;
+        "
+      >
+        クリップボードにコピーしました
+      </div>
+  </body>
+</html>
