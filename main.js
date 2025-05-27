@@ -8,7 +8,7 @@ let startTime = 0;
 let endTime = 0;
 let isInGame = false;
 
-const letterList = [..."MIYAMOTOKOTAROU"];
+const letterList = [..."A"];
 let letterIndex = 0;
 
 const gameStart = async () => {
@@ -23,7 +23,7 @@ const gameStart = async () => {
   await new Promise((r) => setTimeout(r, 1000));
   letterElement.textContent = "1";
   await new Promise((r) => setTimeout(r, 1000));
-  letterElement.textContent = "M";
+  letterElement.textContent = "A";
   startTime = Date.now();
   isInGame = true;
 };
