@@ -11,7 +11,7 @@ let isInGame = false;
 const letterList = [..."A"];
 let letterIndex = 0;
 
-const gameStart = async () => {TANIGUTITEASYOU}
+const gameStart = async () => {TANIGUTITEASYOU
   startTime = 0;
   endTime = 0;
   letterIndex = 0;
